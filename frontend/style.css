@@ -1,31 +1,84 @@
 body{
- background:#0b0b0b;
- color:white;
- font-family:sans-serif;
- display:flex;
- justify-content:center;
- align-items:center;
- height:100vh;
+
+margin:0;
+font-family:sans-serif;
+background:#0b0b0b;
+color:white;
+
 }
 
-.box{
- background:#151515;
- padding:40px;
- border-radius:20px;
- box-shadow:0 0 40px rgba(0,0,0,0.9);
- text-align:center;
+.app{
+
+max-width:700px;
+margin:auto;
+height:100vh;
+display:flex;
+flex-direction:column;
+
+}
+
+header{
+
+text-align:center;
+padding:15px;
+background:#111;
+border-bottom:1px solid #222;
+
+}
+
+#chat{
+
+flex:1;
+overflow:auto;
+padding:15px;
+
+}
+
+.msg{
+
+margin-bottom:10px;
+padding:10px;
+border-radius:10px;
+max-width:80%;
+
+}
+
+.user{
+
+background:#7c5cff;
+align-self:flex-end;
+
+}
+
+.ai{
+
+background:#222;
+
+}
+
+.inputBox{
+
+display:flex;
+padding:10px;
+background:#111;
+
+}
+
+input{
+
+flex:1;
+padding:10px;
+border:none;
+border-radius:8px;
+margin-right:10px;
+
 }
 
 button{
- background:#7c5cff;
- color:white;
- border:none;
- padding:12px 25px;
- border-radius:10px;
- font-size:16px;
- cursor:pointer;
-}
 
-button:hover{
- background:#9a82ff;
+background:#7c5cff;
+border:none;
+color:white;
+padding:10px 20px;
+border-radius:8px;
 }
