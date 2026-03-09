@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>LocalDev</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<div class="box">
+<div class="app">
 
+<header>
 <h1>LocalDev</h1>
-<p>Local AI Coding Environment</p>
+<p>Local AI Chat</p>
+</header>
 
-<button onclick="checkAI()">Connect Local AI</button>
+<div id="chat"></div>
 
-<pre id="out"></pre>
+<div class="inputBox">
+
+<input id="msg" placeholder="Ask something...">
+
+<button onclick="sendMsg()">Send</button>
+
+</div>
 
 </div>
 
