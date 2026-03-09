@@ -1,0 +1,31 @@
+body{
+ background:#0b0b0b;
+ color:white;
+ font-family:sans-serif;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ height:100vh;
+}
+
+.box{
+ background:#151515;
+ padding:40px;
+ border-radius:20px;
+ box-shadow:0 0 40px rgba(0,0,0,0.9);
+ text-align:center;
+}
+
+button{
+ background:#7c5cff;
+ color:white;
+ border:none;
+ padding:12px 25px;
+ border-radius:10px;
+ font-size:16px;
+ cursor:pointer;
+}
+
+button:hover{
+ background:#9a82ff;
+}
